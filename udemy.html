@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+          
+          .nav {
+            padding: 10px;
+              display: flex;
+              justify-content: space-evenly;
+              background-color: lightcyan;
+              border-radius: 8%;
+          }
+          
+          .log:hover {
+            color: aliceblue;
+            background-color: black;
+          }
+          .signup:hover {
+            color: aliceblue;
+            background-color: black;
+          }
+          li:hover {
+            color: black;
+            background-color: lightgrey;
+          }
+          .search {
+             flex-grow: 0.5;
+             border-radius: 10%;
+          }
+
+          .signup {
+            background-color: blueviolet;
+            color: aliceblue;
+            font-size: medium;
+          }
+
+          .borders {
+             display: flex;
+             justify-content: space-around;
+             padding: 8px;
+          }
+
+          li {
+            width: 100%;
+           border-radius: 30%;
+           width: 100px;
+           border: 2px solid;
+           align-items: center;
+           justify-content: center;
+           list-style: none;
+           text-align: center;
+           padding-top: 10px;
+          }
+      
+      .container {
+           display: flex;
+           
+      }
+    .content {
+       border: 1px solid black;
+       padding: 1rem;
+    }
+    .description-container {
+    }
+    img {
+      width: 100%;
+    }
+
+    span {
+      width: 20%;
+      border: 1px solid;
+      display: inline-block;
+    
+    }
+    .cost > button {
+           margin-left: 260px;
+           color: blueviolet;
+           font-size: 17px;
+    }
+
+    .cost > span {
+             font-size: 26px;
+    }
+
+    @media only screen and (max-width:600px) {
+          .container {
+              display: block;
+          }
+    }
+    @media only screen and (min-width:800px) {
+          .container {
+              display: row;
+          }
+    }
+    @media only screen and (min-width:900px) {
+          .container {
+              display: row;
+          }
+    }
+    @media only screen and (min-width:1200px) {
+          .container {
+              display: row;
+          }
+    }
+
+
+     @media only screen and (max-width:600px) {
+          .borders {
+              display: block;
+              justify-content: center;
+          }
+    }
+  </style>
+  <body bgcolor="">
+          <div class="nav">
+                <strong>Udemy</strong>
+                <div>Explore</div>
+               <input class="search" type="search" value="Pricing">
+               <div>Udemy Business</div>
+               <div>Tech on Udemy</div>
+               <div>🛒</div>
+               <input class="log" type="submit" value="Log in">
+               <input class="signup" type="submit" value="Sign up">
+               <div>🌐</div>
+          </div>
+
+          <div class="borders">
+                  <b>All Filters</b>
+                  <li>Coding Exercise</li>
+                  <li>Practice Tests</li>
+                  <li>Role Plays</li>
+                  <li>Language</li>
+                  <li>Ratings</li>
+                  <li>Level</li>
+          </div>
+
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img src="/images/udemy1.jpg" alt="" />
+        </div>
+        <div class="description-container">
+          <h5>Pricing for management Consultants & Business Analysts</h5>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+            debitis voluptatibus quidem dolorem officiis quae voluptatum.
+            Tempora ipsum veniam architecto.
+          </p>
+          <small>Dr. fefergerfgfeee</small>
+        </div>
+
+        <div class="buttons">
+          <span>⭐4.2</span>
+          <span>324 ratings</span>
+          <span>4.5 </span>
+          <span>91 lectures</span>
+
+           <div class="cost">
+             <span> #24,000 </span>
+             <button value="">Add To Cart</button>
+        </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="image-container">
+          <img src="/images/udemy1.jpg" alt="" />
+        </div>
+        <div class="description-container">
+          <h6>Title</h6>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+            debitis voluptatibus quidem dolorem officiis quae voluptatum.
+            Tempora ipsum veniam architecto.
+          </p>
+          <small>Dr. fefergerfgfeee</small>
+        </div>
+
+        <div class="buttons">
+          <span>⭐4.2</span>
+          <span>4.2</span>
+          <span>4.2</span>
+          <span>4.2</span>
+        </div>
+
+        <div class="cost">
+             <span> #24,000 </span>
+             <button value="">Add To Cart</button>
+        </div>
+      </div>
+      <div class="content">
+        <div class="image-container">
+          <img src="/images/udemy1.jpg" alt="" />
+        </div>
+        <div class="description-container">
+          <h6>Title</h6>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+            debitis voluptatibus quidem dolorem officiis quae voluptatum.
+            Tempora ipsum veniam architecto.
+          </p>
+          <small>Dr. fefergerfgfeee</small>
+        </div>
+
+        <div class="buttons">
+          <span>⭐4.2</span>
+          <span>4.2</span>
+          <span>4.2</span>
+          <span>4.2</span>
+           <div class="cost">
+             <span> #24,000 </span>
+             <button value="">Add To Cart</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
